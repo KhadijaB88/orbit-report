@@ -4,16 +4,21 @@
 }
 
 .warning {
-    background-color: #da8a8a;
+    background-color: #e61818;
 }
 
+/* add code to alternate colors in table.. zebra stripes */
+tr:nth-child(even) {
+    background-color: #1f62f3;
+  }
+
 table {
-  color: #111;
+  color: whitesmoke;
   border-radius: 5px;
   overflow: hidden;
   margin: 12px 0;
   min-width: 300px;
-  background: #dad8d8;
+  background: #0792ee;
 }
 
 .header-row {
